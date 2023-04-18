@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 import time
 
-td_obj = TD('tdwsp296', 'rahul@296',live_port=None)
+td_obj = TD('tdwsp', 'rahul',live_port=None)
 
 with open("final aug.txt","r") as myfile:
     option_contracts=myfile.read().splitlines()
