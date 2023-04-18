@@ -9,8 +9,8 @@ from dateutil.relativedelta import *
 from dateutil import parser
 import calendar 
 
-username = 'tdwsp296'
-password = 'rahul@296'
+username = 'tdws'
+password = 'rahul'
 
 td_obj = TD(username, password, live_port=None)
 
